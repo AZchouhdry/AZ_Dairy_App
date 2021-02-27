@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#16C31D"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"
+        android:text="Login" />
+    <EditText
+        android:id="@+id/lognam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"
+        android:hint="Name/ID"
+
+        />
+    <EditText
+        android:id="@+id/logpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:hint="Password"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:background="#16C31D"
+        android:layout_marginTop="10dp"
+        android:text="Login"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="40dp"
+        android:textStyle="italic"
+        android:layout_marginTop="15dp"
+        android:text="Not have Account Sign Up!" />
+
+</LinearLayout>

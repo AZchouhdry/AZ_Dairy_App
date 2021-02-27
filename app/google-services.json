@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "785102392404",
+    "project_id": "az-dairy-app",
+    "storage_bucket": "az-dairy-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785102392404:android:486475465371fc73d8b1c1",
+        "android_client_info": {
+          "package_name": "com.example.azdairyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785102392404-dq9gkp7n0n39gn916d2ldc5j1dfjmr7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzHPQGHZTyqVhzxZV_BElVxYlSho9ShK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785102392404-dq9gkp7n0n39gn916d2ldc5j1dfjmr7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.azdairyapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AZDairyApp">
+
+        <activity android:name=".add_worker"
+            android:parentActivityName=".worker_details"/>
+        <activity android:name=".worker_details"
+            android:parentActivityName=".Dashboard"/>
+        <activity android:name=".reports"
+            android:parentActivityName=".Dashboard"/>
+        <activity android:name=".available_breeds"
+            android:parentActivityName=".farm_setup"/>
+        <activity android:name=".available_income" />
+        <activity android:name=".total_expenses" />
+        <activity android:name=".farm_setup"
+            android:parentActivityName=".Dashboard"/>
+        <activity android:name=".expenses" />
+        <activity android:name=".income" />
+        <activity android:name=".transactions"
+            android:parentActivityName=".Dashboard"/>
+        <activity
+            android:name=".add_event"
+            android:parentActivityName=".Events" />
+        <activity android:name=".Events"
+            android:parentActivityName=".Dashboard"/>
+        <activity android:name=".add_milk"
+            android:parentActivityName=".milk_record"/>
+        <activity android:name=".milk_record"
+            android:parentActivityName=".Dashboard"/>
+        <activity android:name=".add_cattle"
+            android:parentActivityName=".Animals"/>
+        <activity android:name=".Animals"
+            android:parentActivityName=".Dashboard" />
+        <activity android:name=".Dashboard"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Activity_Signup"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".LoginActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

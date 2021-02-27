@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity_Signup">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#16C31D"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"
+        android:text="Sign Up" />
+    <EditText
+        android:id="@+id/nam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:hint="Input ID/Name"
+        />
+    <EditText
+        android:id="@+id/emal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"
+        android:hint="input email"
+        />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:hint="Input Password "
+        />
+    <Button
+        android:id="@+id/appcrashnakrwa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:background="#16C31D"
+        android:layout_marginTop="10dp"
+        android:text="SignUP"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="40dp"
+        android:textStyle="italic"
+        android:layout_marginTop="15dp"
+        android:text="Already have Account Login!" />
+</LinearLayout>
